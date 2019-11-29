@@ -1,9 +1,9 @@
 
 <h1 align="center" id="Template">
-  Title
+  Drowsiness Detector
 </h1>
 
-<h3 align="center">The template README (and other files) for my GitHub repositories.</h3>
+<h3 align="center">Drowsiness detector using OpenCV, Python and Dlib</h3>
 
 <p align="center">
       <a href="https://patreon.com/discordboats" target="_blank">
@@ -17,11 +17,21 @@
 ----
 
 ## Information
+Drowsiness detector using OpenCV, Python and Dlib
 
-This repository stores my template README file along with other useful default & template files for my GitHub repositories.
+## Prerequisites
+Make sure to have the following libraries installed in your Python environment:
+
+* opencv
+* dlib
+* scipy
+* imutils
+* playsound
+
+## Run
+`python app.py`
 
 ## Contributing
-
 Contributions are always welcome to this project!\
 Take a look at any existing issues on this repository for starting places to help contribute towards, or simply create your own new contribution to the project.
 
