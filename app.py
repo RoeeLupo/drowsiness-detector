@@ -24,7 +24,7 @@ class SLPD(object):
         self.frame_check = 10
         self.detect = dlib.get_frontal_face_detector()
         self.predict = dlib.shape_predictor(
-            "Model/shape_predictor_68_face_landmarks.dat")
+            "shape_predictor_68_face_landmarks.dat")
 
     @classmethod
     def start(self):
