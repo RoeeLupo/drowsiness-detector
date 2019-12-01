@@ -21,7 +21,7 @@ class SLPD(object):
     def __init__(self):
 
         self.thresh = 0.25
-        self.frame_check = 10
+        self.frame_check = 5
         self.detect = dlib.get_frontal_face_detector()
         self.predict = dlib.shape_predictor(
             "shape_predictor_68_face_landmarks.dat")
